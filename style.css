@@ -8,10 +8,10 @@
 @media screen and (max-width: 420px) {
   .row {
     width: 400px;
+    margin-top: 50px;
   }
 
   #lezioni .row > .left, #lezioni .row > .right {
-    width: 25%;
     float: none;
   }
 
@@ -19,6 +19,7 @@
     /* object-fit: contain; */
   }
 }
+
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
 #lezioni .row>.right {
