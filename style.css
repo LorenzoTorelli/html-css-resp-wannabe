@@ -5,20 +5,6 @@
   margin-top: 100px;
 }
 
-@media screen and (max-width: 420px) {
-  .row {
-    width: 400px;
-    margin-top: 50px;
-  }
-
-  #lezioni .row > .left, #lezioni .row > .right {
-    float: none;
-  }
-
-  #lezioni .row img {
-    /* object-fit: contain; */
-  }
-}
 
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
@@ -85,4 +71,43 @@ img {
 
 .clear {
   clear: both;
+}
+
+@media screen and (max-width: 419px) {
+  .row {
+    width: 100%;
+    margin-top: 50px;
+  }
+  h3, div {
+    font-size: 95%;
+  }
+  body, #why{
+    background-color: lightyellow;
+  }
+  #lezioni .row > .left, #lezioni .row > .right {
+    width: 100%;
+  }
+
+  img {
+    width: 15% ;
+    height: 15%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    background-color: white;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  margin-top: 40px;
+} 
+  #why .row img {
+    width: 10% ;
+    height: 10%;
+  }
+
 }
